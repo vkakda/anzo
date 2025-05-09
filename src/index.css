@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/file.woff2);
+}
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/file.2woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/file.3woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/file.3woff2);
+}
+@font-face {
+  font-family: anton;
+  src: url(./assets/Anton-Regular.ttf);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+
+#page1-in{
+  position: relative;
+  perspective: 1000px;
+}
+
+#section2{
+  position: relative;
+  perspective: 1000px;
+}
+
+#tiltDiv {
+  /* background-color: red; */
+  width: fit-content;
+  transform: rotateY(50deg);
+}
+
+.rotateText {
+  /* background-color: red; */
+  transform-origin: 100% 80%;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 40px rgba(255, 255, 255, 0.8);
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
