@@ -9,7 +9,7 @@ const Page4 = () => {
         loop
         muted
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="src/assets/robo.mp4"
+        src="/videos/robo.mp4"
       ></video>
 
       {/* White Border Container */}

@@ -13,7 +13,7 @@ const Page3 = () => {
         loop
         muted
         className="relative z-10 h-[80vh] w-[59vw] object-cover"
-        src="\src\assets\file.mp4"
+        src="./videos/file.mp4"
       ></video>
       <div className="z-0 h-0.5 w-3/4 top-[40%] absolute bg-black"></div>
       <div className="z-0 h-0.5 w-5/6 top-[55%] absolute bg-black"></div>

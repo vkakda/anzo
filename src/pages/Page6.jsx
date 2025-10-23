@@ -9,7 +9,7 @@ const Page6 = () => {
           loop
           muted
           className=" h-full w-full object-cover"
-          src="src\assets\fileearth round.mp4">
+          src="/videos/fileearth round.mp4">
             </video>
             <h1 className="index-0 flex items-center justify-center font_2 wixui-rich-text__tex text-[10vw] absolute uppercase text-white text-center">About</h1>
       </div>
